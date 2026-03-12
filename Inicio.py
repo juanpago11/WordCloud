@@ -389,36 +389,41 @@ with st.sidebar:
 
         with st.expander("Cargar texto de ejemplo"):
             ejemplos = {
-                "Inteligencia Artificial": """
-                La inteligencia artificial es una disciplina de la informática orientada a desarrollar
-                sistemas capaces de ejecutar tareas que requieren capacidades cognitivas humanas.
-                El aprendizaje automático, las redes neuronales profundas y el procesamiento del
-                lenguaje natural constituyen los pilares técnicos de los sistemas modernos de
-                inteligencia artificial. Los modelos de lenguaje de gran escala, la visión
-                computacional y la robótica autónoma representan aplicaciones de vanguardia.
-                La inteligencia artificial transforma sectores como la salud, la educación,
-                la manufactura, las finanzas y el transporte, generando eficiencias significativas.
-                """,
-                "Colombia": """
-                Colombia es una nación situada en el extremo noroccidental de América del Sur,
-                reconocida por su excepcional biodiversidad, riqueza cultural y diversidad de paisajes.
-                Bogotá es la capital y principal centro económico, seguida de Medellín, Cali y
-                Barranquilla como ciudades de relevancia nacional. El café colombiano goza de
-                reconocimiento internacional por su calidad y perfil aromático. La floricultura
-                colombiana abastece mercados globales con alta competitividad. El país alberga
-                ecosistemas del Amazonas, los Andes, el Caribe y el Pacífico, constituyéndose
-                como uno de los territorios con mayor biodiversidad del planeta.
-                """,
-                "Tecnología 4.0": """
-                La cuarta revolución industrial redefine los modelos productivos mediante la
-                convergencia de tecnologías digitales avanzadas. El Internet de las cosas,
-                la inteligencia artificial, el análisis de grandes datos, la robótica colaborativa
-                y la automatización inteligente son pilares estratégicos de la industria moderna.
-                Las fábricas inteligentes integran sensores, conectividad y analítica para
-                optimizar procesos en tiempo real. La manufactura aditiva, los gemelos digitales
-                y la realidad aumentada transforman la ingeniería de producción. La computación
-                en la nube y la ciberseguridad son habilitadores fundamentales de la
-                transformación digital empresarial.
+                "Poema 20": """
+                
+Puedo escribir los versos más tristes esta noche.
+Escribir, por ejemplo: «La noche está estrellada,
+y tiritan, azules, los astros, a lo lejos».
+El viento de la noche gira en el cielo y canta.
+Puedo escribir los versos más tristes esta noche.
+Yo la quise, y a veces ella también me quiso.
+En las noches como ésta la tuve entre mis brazos.
+La besé tantas veces bajo el cielo infinito.
+Ella me quiso, a veces yo también la quería.
+Cómo no haber amado sus grandes ojos fijos.
+Puedo escribir los versos más tristes esta noche.
+Pensar que no la tengo. Sentir que la he perdido.
+Oír la noche inmensa, más inmensa sin ella.
+Y el verso cae al alma como al pasto el rocío.
+Qué importa que mi amor no pudiera guardarla.
+La noche está estrellada y ella no está conmigo.
+Eso es todo. A lo lejos alguien canta. A lo lejos
+Mi alma no se contenta con haberla perdido.
+Como para acercarla mi mirada la busca.
+Mi corazón la busca, y ella no está conmigo.
+La misma noche que hace blanquear los mismos árboles.
+Nosotros, los de entonces, ya no somos los mismos.
+Ya no la quiero, es cierto, pero cuánto la quise.
+Mi voz buscaba el viento para tocar su oído.
+De otro. Será de otro. Como antes de mis besos.
+Su voz, su cuerpo claro. Sus ojos infinitos.
+Ya no la quiero, es cierto, pero tal vez la quiero.
+Es tan corto el amor, y es tan largo el olvido.
+Porque en noches como ésta la tuve entre mis brazos,
+mi alma no se contenta con haberla perdido.
+Aunque éste sea el último dolor que ella me causa,
+y estos sean los últimos versos que yo le escribo.
+
                 """,
             }
             ejemplo_sel = st.selectbox("Ejemplo:", list(ejemplos.keys()),
